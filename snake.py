@@ -60,3 +60,4 @@ class Snake:
         # And create a new snake
         self.create_snake()
         self.head = self.segments[0]
+        return 0.2  # Default sleep timer for screen update

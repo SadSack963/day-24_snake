@@ -5,7 +5,8 @@ FONT = ("Courier", 24, "normal")
 
 def read_high_score():
     # Using absolute path
-    with open("E:/Python/Projects/day-24_snake/high_score.txt", "rt") as file:
+    # with open("E:/Python/Projects/day-24_snake/high_score.txt", "rt") as file:
+    with open("high_score.txt", "rt") as file:
 #    with open("E:\\Python\\Projects\\day-24_snake\\high_score.txt", "rt") as file:
         high_score = int(file.read())
     return high_score

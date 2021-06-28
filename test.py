@@ -16,3 +16,4 @@ with open("high_score.txt", mode="at") as file:
 with open("high_score.txt", mode="rt") as file:
     contents = file.read()
     print(contents)
+
